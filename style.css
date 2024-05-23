@@ -1,0 +1,113 @@
+body{
+    margin-top: 10vh;
+    margin-bottom:25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, rgb(173, 223, 254), rgb(158, 252, 158));
+
+}
+
+.main-overall-container{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-container{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-size: 27px;
+    font-family: 'roboto';
+    color: white;
+    text-shadow: 2px 2px 3px black;    
+}
+
+
+.main-score-container{
+    width: 600px;
+    height: 300px;
+    display:flex;
+    justify-content:space-around;
+    background: rgb(21, 74, 148);
+    border: solid white 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    font-size: 30px;
+    font-family: 'roboto';
+    position:relative;
+}
+.js-new-game-btn{
+    position: absolute;
+    bottom: 120px;
+    width: 80px;
+    height: 50px;
+    line-height: 20px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color:  rgba(255, 255, 255, 0.91);
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 2px;
+    box-shadow: 2px 2px 2px black;
+}
+.js-new-game-btn:hover{
+    background-color: rgba(235, 234, 234, 0.742);
+
+}
+
+h2{
+    margin: 0;
+    text-shadow: 2px 2px 3px black;
+    font-size: 50px;
+}
+
+.home-container, .visitor-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height:285px;
+    background: rgb(21, 74, 148);
+    margin:5px 0px 0px 0px;
+    
+}
+
+.score-visitor, .score-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 145px;
+    height: 110px;
+    background: black;
+    border-radius: 10px;
+    margin-top: 15px ;
+    margin-bottom:20px;
+    color: red;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'roboto';
+}
+
+
+.btn{
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.91);
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0px 2px;
+    box-shadow: 2px 2px 2px;
+}
+
+.btn:hover{
+    background-color: rgba(235, 234, 234, 0.742);
+}
